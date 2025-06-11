@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Simple</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container" id="loginForm">
+    <h2>Inicio de Sesión</h2>
+    <input type="text" id="username" placeholder="Usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button onclick="login()">Iniciar Sesión</button>
+    <p id="message"></p>
+  </div>
+
+  <div class="welcome-container" id="welcomeScreen" style="display: none;">
+    <h2 id="welcomeMessage"></h2>
+    <p>Has iniciado sesión exitosamente.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
